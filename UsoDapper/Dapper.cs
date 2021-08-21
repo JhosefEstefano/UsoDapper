@@ -13,7 +13,7 @@ namespace UsoDapper
     {
         protected readonly SqlConnection _cs;
 
-        public static string CadenaDeConexion = "server=54.70.32.31\\sqlsiteca;database=ControlDocumental;uid=Dev;password=Dev123 ";
+        public static string CadenaDeConexion = "server=SERVERNAME;database=DATABASENAME;uid=USER;password=PASSWORD ";
        
         public Dapper()
         {
